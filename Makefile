@@ -6,7 +6,7 @@
     GOCLEAN=$(GOCMD) clean
     GOTEST=$(GOCMD) test
     GOGET=$(GOCMD) get
-    BINARY_NAME=nerf-controller
+    BINARY_NAME=slobs-remote
     BINARY_UNIX=$(BINARY_NAME)_unix
     BINARY_EXTENTION=.exe
 

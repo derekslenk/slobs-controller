@@ -1,4 +1,4 @@
-# Nerf-Controller
+# SLOBS-Remote
 This code interfaces and run the web app GUI for an automated nerf gun that makes live stream donations into shots at the streamer. Designed to run on a Raspberry Pi Zero W connected to a nerf gun or other method of firing projectiles with a user interface via a web app, the program interfaces with StreamLabs to record donations that will add rounds to the hopper to be fired. The only projectiles to be used are safe to fire at humans such as the Nerf Rival Rounds or similar. Future iterations may have a 3D printable mechanism that can be used to fire the rounds, see the deployment section for more information.
 
 ## Getting Started
@@ -30,7 +30,7 @@ A step by step series of examples that explains how to get a development environ
 3. (Optional) If you would like to change what port is used you can set the PORT environment veriable. by default the port used is 8080.
 	1. Example of setting the port to 3000 instead of 8080 using a bash comand
 		```
-		PORT="3000"
+		export PORT="3000"
 		```
 4. The setup should now be complete the program can be tested and run with the following make command from the project home directory.
 	```
